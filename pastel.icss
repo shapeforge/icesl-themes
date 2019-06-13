@@ -1,0 +1,181 @@
+//Pastel Light Theme
+//blue 	 E2FBFB CAF3F3 B0E9E9 95DCDC 7BCCCC
+//yellow FFF7E6 FFF0D3 FFEAC0 FFE4AD FFDD9A
+//red    FFE6E6 FFD3D3 FFC0C0 FFADAD FF9A9A
+//orange FFF1E6 FFE7D3 FFDDC0 FFD2AD FFC89A
+
+//Pastel Text Theme
+//blue 	 46B2B2 249F9F 009999 007676 005D5D
+//yellow FFCB63 FFBD39 FFAA00 C58300 9B6700
+//red    FF6363 FF3939 FF0000 C50000 9B0000
+//orange FFAA63 FF9339 FF7400 C55900 9B4600
+
+default = #FFF7E6;
+
+editor {
+  Background : #FFF7E6;
+  TextSelectedBg : #CAF3F3;
+  
+  LineNumber : #000000;
+  LineNumberBg : #FFE7D3;
+  
+  SelectedPrimitiveBg : #FFDD9A;
+  AncestorBg          : #FFDD9A;
+  DescendantsBg       : #FFDD9A;
+  ErrorBg             : #FFD3D3;
+  
+  Identifier : #202020;
+  Comment    : #BE976A;
+  CommentLine: #BE976A;
+  Number     : #405AFF;
+  
+  Lua : #975BFA; 
+  Emit: #FD0006; 
+  Shape: #C90775; 
+  Operation: #32AF0B; 
+  Matrix: #0E2E85; 
+  Const: #FF00FF; 
+  Misc: #00CFCF; 
+  Tweak: #FC4CA2; 
+  
+  String        : #76B700;
+  LiteralString : #76B700;
+  Character     : #76B700;
+  StringEOL     : #76B700;
+  Operator      : #E66C00;
+  Preprocessor  : default;
+  Caret : #000000;
+}
+
+
+3dView{
+  Background : #FAFAFA;
+  BedBorder  : #000000;
+  Grid       : #D6D6D6;
+}
+
+3dViewError {
+  Background : #FF9A9A;
+}
+
+brushes {
+  0 : #005D5D;
+  1 : #9B4600;
+  2 : #9B6700;
+}
+
+main {
+  Text : #000000;
+  TextSelectedBg : #FFDDC0;
+
+  WindowBg : #FFF7E6;
+  PopupBg  : #FFE7D3;
+  
+  TitleBg          : #95DCDC;
+  TitleBgActive    : #7BCCCC;
+  TitleBgCollapsed : #95DCDC;
+  
+  Header        : #B0E9E9;
+  HeaderHovered : #95DCDC;
+  HeaderActive  : #7BCCCC;
+  
+  Button        : #FFDDC0;
+  ButtonHovered : #FFD2AD;
+  ButtonActive  : #FFC89A;
+
+  FrameBg        : #FFF0D3;
+  FrameBgHovered : #FFEAC0;
+  
+  CheckMark : #7BCCCC;
+  
+  ScrollbarBg          : #FFF0D3;
+  ScrollbarGrab        : #B0E9E9;
+  ScrollbarGrabHovered : #95DCDC;
+  ScrollbarGrabActive  : #7BCCCC;
+  
+  SliderGrab        : #B0E9E9;
+  SliderGrabHovered : #95DCDC;
+  SliderGrabActive  : #7BCCCC;
+  
+  PlotHistogram : #B0E9E9;
+}
+
+tooltip {
+	PopupBg : #FFE7D3;
+	Text    : #000000;
+}
+
+buttonErase {
+  Button        : #FFC0C0;
+  ButtonHovered : #FFADAD;
+  ButtonActive  : #FF9A9A;
+}
+
+buttonEdit {
+  Button        : #FFEAC0;
+  ButtonHovered : #FFE4AD;
+  ButtonActive  : #FFC89A;
+}
+
+buttonSubmit {
+  Button        : #FFC0C0;
+  ButtonHovered : #FFADAD;
+  ButtonActive  : #FF9A9A;
+}
+
+buttonDisabled {
+  Button        : #DDDDDD;
+  ButtonHovered : #DDDDDD;
+  ButtonActive  : #DDDDDD;
+}
+
+fieldEditing {
+  WindowBg : #00000000;
+}
+
+perLayerEditing {
+  WindowBg : #000000;
+}
+
+settingKey {
+  WindowBg : #FFEAC0;
+}
+
+menuBar {
+  Text         : #000000;
+  TextDisabled : #000000;
+  
+  PopupBg : #FFF7E6;
+  
+  MenuBarBg : #B0E9E9;
+  
+  Header        : #CAF3F3;
+  HeaderHovered : #95DCDC;
+  HeaderActive  : #95DCDC;
+  
+  Border : #B0E9E9;
+  
+  FrameBg : #FFEAC0;
+  FrameBgHovered : #FFDDC0;
+}
+
+///////////////////////////////////////
+
+rightPanel {
+}
+
+tweaks {
+}
+
+button {
+}
+
+radioButton {
+}
+
+checkButton {
+}
+
+runningService {
+}
+
