@@ -22,13 +22,19 @@ editor {
 }
 
 main {
-
   MenuBarBg : rgba(0.25, 0.35, 0.65, 1.0);
   
   FrameBg : #313131;
   Button        : rgba(0.25, 0.35, 0.65, 1);
   ButtonHovered : rgba(0.1, 0.1, 0.4, 1);
   ButtonActive  : rgba(0.1, 0.1, 0.6, 1);
+}
+
+rightPanel{
+  WindowBg       : #000000;
+  Border         : #4D4D4D;
+  
+  Header         : rgba(0.25, 0.35, 0.65, 1);
 }
 
 tooltip {
@@ -71,3 +77,6 @@ menuBar{
   PopupBg  : rgba(0, 0, 0, 0);
 }
 
+tweaks {
+  WindowBg        : #000000;
+}
