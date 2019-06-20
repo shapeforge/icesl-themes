@@ -38,7 +38,9 @@ rightPanel{
 }
 
 tooltip {
-	PopupBg :  rgba(0.7, 0.7, 0.7, 1.0);
+  WindowBg : rgb(0.7, 0.7, 0.7);
+  PopupBg  : rgb(0.7, 0.7, 0.7);
+  Text     : rgb(0.0, 0.0, 0.0);
 }
 
 buttonErase {
