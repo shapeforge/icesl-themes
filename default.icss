@@ -44,11 +44,9 @@ tooltip {
 }
 
 buttonErase {
-  Button        : rgba(0.9, 0.9, 0.9, 1.0);
-  ButtonHovered : rgba(1.0, 1.0, 1.0, 1.0);
-  ButtonActive  : rgba(0.5, 0.5, 0.5, 1.0);
-  
-  Text : rgba(0.0, 0.0, 0.0, 1);
+  Button        : rgba(0.25, 0.35, 0.65, 1);
+  ButtonHovered : rgba(0.1, 0.1, 0.4, 1);
+  ButtonActive  : rgba(0.1, 0.1, 0.6, 1);
 }
 
 buttonDisabled{
@@ -58,11 +56,9 @@ buttonDisabled{
 }
 
 buttonEdit {
-  Button        : rgba(0.9, 0.9, 0.9, 1.0);
-  ButtonHovered : rgba(1.0, 1.0, 1.0, 1.0);
-  ButtonActive  : rgba(0.5, 0.5, 0.5, 1.0);
-  
-  Text : rgba(0.0, 0.0, 0.0, 1);
+  Button        : rgba(0.25, 0.35, 0.65, 1);
+  ButtonHovered : rgba(0.1, 0.1, 0.4, 1);
+  ButtonActive  : rgba(0.1, 0.1, 0.6, 1);
 }
 
 fieldEditing {
