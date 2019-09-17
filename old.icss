@@ -1,0 +1,82 @@
+editor {
+  Background : #313131;
+  
+  TextSelectedBg: #696969;
+  
+  Caret: #FFFFFF;
+  
+  Identifier : #FFFFFF;
+  Comment    : #98FB98;
+  CommentLine: #98FB98;
+  Number     : #DDA0DD;
+}
+
+3dView{
+  Background : #313131;
+  BedBorder  : #000000;
+  Grid       : #D6D6D6;
+}
+
+3dViewError {
+  Background : #FF9A9A;
+}
+
+main {
+  MenuBarBg : rgba(0.25, 0.35, 0.65, 1.0);
+  
+  FrameBg : #313131;
+  Button        : rgba(0.25, 0.35, 0.65, 1);
+  ButtonHovered : rgba(0.1, 0.1, 0.4, 1);
+  ButtonActive  : rgba(0.1, 0.1, 0.6, 1);
+}
+
+rightPanel{
+  WindowBg       : rgba(0, 0, 0, 0.9);
+  Border         : #4D4D4D;
+  
+  Header         : rgba(0.25, 0.35, 0.65, 1);
+}
+
+tooltip {
+  WindowBg : rgb(0.7, 0.7, 0.7);
+  PopupBg  : rgb(0.7, 0.7, 0.7);
+  Text     : rgb(0.0, 0.0, 0.0);
+}
+
+buttonErase {
+  Button        : rgba(0.25, 0.35, 0.65, 1);
+  ButtonHovered : rgba(0.1, 0.1, 0.4, 1);
+  ButtonActive  : rgba(0.1, 0.1, 0.6, 1);
+}
+
+buttonDisabled{
+  Button        : rgba(0.56, 0.56, 0.56, 1.0);
+  ButtonHovered : rgba(0.56, 0.56, 0.56, 1.0);
+  ButtonActive  : rgba(0.56, 0.56, 0.56, 1.0);
+}
+
+buttonEdit {
+  Button        : rgba(0.25, 0.35, 0.65, 1);
+  ButtonHovered : rgba(0.1, 0.1, 0.4, 1);
+  ButtonActive  : rgba(0.1, 0.1, 0.6, 1);
+}
+
+fieldEditing {
+  WindowBg : #00000000;
+}
+
+perLayerEditing {
+  WindowBg : #00000000;
+  Button   : rgba(0.25, 0.35, 0.65, 1);
+}
+
+settingKey {
+  WindowBg : rgba(0.2, 0.3, 0.35, 0.7);
+
+menuBar{
+  PopupBg  : rgba(0, 0, 0, 0);
+}
+
+tweaks {
+  WindowBg        : #000000;
+}

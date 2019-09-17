@@ -1,82 +1,187 @@
+/* forge editor background*/
 editor {
-  Background : #313131;
+  Background 			: #212121;
+  TextSelectedBg 		: #696969;
   
-  TextSelectedBg: #696969;
+  LineNumber 			: #636E72;
+  LineNumberBg 			: #000000;
   
-  Caret: #FFFFFF;
+  SelectedPrimitiveBg 	: #FFDD9A;
+  AncestorBg          	: #FFDD9A;
+  DescendantsBg       	: #FFDD9A;
+  ErrorBg             	: #FFD3D3;
   
-  Identifier : #FFFFFF;
-  Comment    : #98FB98;
-  CommentLine: #98FB98;
-  Number     : #DDA0DD;
+  Identifier 			: #FFFFFF;
+  Comment    			: #98FB98;
+  CommentLine			: #98FB98;
+  Number     			: #DDA0DD;
+  
+  Lua 					: #975BFA; 
+  Emit					: #FD0006; 
+  Shape					: #C90775; 
+  Operation				: #32AF0B; 
+  Matrix				: #0E2E85;
+  Const					: #FF00FF; 
+  Misc					: #00CFCF; 
+  Tweak					: #FC4CA2; 
+  
+  String        		: #76B700;
+  LiteralString 		: #76B700;
+  Character     		: #76B700;
+  StringEOL     		: #76B700;
+  Operator      		: #E66C00;
+  Preprocessor  		: #2C7D36;
+  Caret 				: #FFFFFF;
 }
 
+/* color for 3D viewer*/
 3dView{
-  Background : #313131;
-  BedBorder  : #000000;
-  Grid       : #D6D6D6;
+  Background 			: #464648;
+  BedBorder  			: #1C1C1C;
+  Grid       			: #A9B0BA;
 }
 
 3dViewError {
-  Background : #FF9A9A;
+  Background 			: #FF7675;
+}
+
+brushes {
+  0 					: #005D5D;
+  1 					: #939598;
+  2 					: #B17E70;
 }
 
 main {
-  MenuBarBg : rgba(0.25, 0.35, 0.65, 1.0);
-  
-  FrameBg : #313131;
-  Button        : rgba(0.25, 0.35, 0.65, 1);
-  ButtonHovered : rgba(0.1, 0.1, 0.4, 1);
-  ButtonActive  : rgba(0.1, 0.1, 0.6, 1);
-}
+  Text 					: #FFFFFF;
+  TextSelectedBg 		: #BBBBBB;
 
-rightPanel{
-  WindowBg       : rgba(0, 0, 0, 0.9);
-  Border         : #4D4D4D;
+/* Color for parameter window */
   
-  Header         : rgba(0.25, 0.35, 0.65, 1);
+  WindowBg 				: #212121;
+  PopupBg  				: #494949; 
+
+/*tweaks title color bar*/
+ 
+  TitleBg          		: #45C2C3;    
+  TitleBgActive    		: #45C2C3;
+  TitleBgCollapsed 		: #45C2C3;
+  
+/* Color Header for parameters */
+
+/* Color bar for title*/
+
+  Header        		: #399FA0;
+  HeaderHovered 		: #66CDCD;
+  HeaderActive  		: #399FA0;
+  
+  Button        		: #399FA0;
+  ButtonHovered 		: #66CDCD;
+  ButtonActive  		: #399FA0;
+
+  FrameBg        		: #494949; /* parameter input background*/
+  FrameBgHovered 		: #399FA0;
+  
+  CheckMark 			: #45C2C3;
+  
+  ScrollbarBg			: #6A6A6A;
+  ScrollbarGrab			: #45C2C3;
+  ScrollbarGrabHovered	: #95DCDC;
+  ScrollbarGrabActive	: #399FA0;
+  
+  SliderGrab			: #B0E9E9;
+  SliderGrabHovered		: #66CDCD;
+  SliderGrabActive		: #7BCCCC;
+  
+  PlotHistogram			: #B0E9E9;
 }
 
 tooltip {
-  WindowBg : rgb(0.7, 0.7, 0.7);
-  PopupBg  : rgb(0.7, 0.7, 0.7);
-  Text     : rgb(0.0, 0.0, 0.0);
+  PopupBg				: #CCCCCCEE;
+  Text					: #2A2A2C;
 }
 
 buttonErase {
-  Button        : rgba(0.25, 0.35, 0.65, 1);
-  ButtonHovered : rgba(0.1, 0.1, 0.4, 1);
-  ButtonActive  : rgba(0.1, 0.1, 0.6, 1);
-}
-
-buttonDisabled{
-  Button        : rgba(0.56, 0.56, 0.56, 1.0);
-  ButtonHovered : rgba(0.56, 0.56, 0.56, 1.0);
-  ButtonActive  : rgba(0.56, 0.56, 0.56, 1.0);
+  Button        		: #399FA0;
+  ButtonHovered 		: #66CDCD;
+  ButtonActive  		: #399FA0;
 }
 
 buttonEdit {
-  Button        : rgba(0.25, 0.35, 0.65, 1);
-  ButtonHovered : rgba(0.1, 0.1, 0.4, 1);
-  ButtonActive  : rgba(0.1, 0.1, 0.6, 1);
+  Button        		: #399FA0;
+  ButtonHovered 		: #66CDCD;
+  ButtonActive  		: #399FA0;
+}
+
+/* slicing button*/
+
+buttonSubmit {
+  Button        		: #399FA0;
+  ButtonHovered 		: #66CDCD;
+  ButtonActive  		: #399FA0;
+}
+
+buttonDisabled {
+  Button				: #CCCCCC;
+  ButtonHovered			: #CCCCCC;
+  ButtonActive			: #CCCCCC;
 }
 
 fieldEditing {
-  WindowBg : #00000000;
+  WindowBg 				: #212121;
+  PopupBg  				: #494949;
 }
 
 perLayerEditing {
-  WindowBg : #00000000;
-  Button   : rgba(0.25, 0.35, 0.65, 1);
+  WindowBg 				: #212121;
+  PopupBg  				: #494949;
+  PlotLines				: #000000;
 }
 
 settingKey {
-  WindowBg : rgba(0.2, 0.3, 0.35, 0.7);
+  WindowBg 				: #212121;
+  PopupBg  				: #494949;
+}
 
-menuBar{
-  PopupBg  : rgba(0, 0, 0, 0);
+menuBar {
+  Text					: #FFFFFF;
+  TextDisabled			: #CCCCCC;
+  PopupBg				: #212121;
+  MenuBarBg				: #399FA0;
+  
+  Header        		: #66CDCD;
+  HeaderHovered 		: #66CDCD;
+  HeaderActive  		: #66CDCD;
+  
+  Border				: #399FA0;
+  
+  FrameBg 				: #494949;
+  FrameBgHovered 		: #399FA0;
+  CheckMark 			: #45C2C3;
+}
+
+settingIcons {
+  Button        		: #399FA0;
+  ButtonHovered 		: #66CDCD;
+  ButtonActive  		: #DDDDDD;
+  WindowBg 				: #212121;
+}
+
+///////////////////////////////////////
+
+rightPanel {
 }
 
 tweaks {
-  WindowBg        : #000000;
+}
+
+button {
+}
+
+radioButton {
+}
+
+checkButton {
+}
+
+runningService {
 }
