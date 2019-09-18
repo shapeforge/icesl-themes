@@ -1,37 +1,12 @@
 /* forge editor background*/
 editor {
-  Background 			: #212121;
-  TextSelectedBg 		: #696969;
-  
-  LineNumber 			: #636E72;
-  LineNumberBg 			: #000000;
-  
-  SelectedPrimitiveBg 	: #FFDD9A;
-  AncestorBg          	: #FFDD9A;
-  DescendantsBg       	: #FFDD9A;
-  ErrorBg             	: #FFD3D3;
-  
+  Background 			: #313131; 
+  TextSelectedBg		: #696969; 
+  Caret					: #FFFFFF;
   Identifier 			: #FFFFFF;
   Comment    			: #98FB98;
   CommentLine			: #98FB98;
   Number     			: #DDA0DD;
-  
-  Lua 					: #975BFA; 
-  Emit					: #FD0006; 
-  Shape					: #C90775; 
-  Operation				: #32AF0B; 
-  Matrix				: #0E2E85;
-  Const					: #FF00FF; 
-  Misc					: #00CFCF; 
-  Tweak					: #FC4CA2; 
-  
-  String        		: #76B700;
-  LiteralString 		: #76B700;
-  Character     		: #76B700;
-  StringEOL     		: #76B700;
-  Operator      		: #E66C00;
-  Preprocessor  		: #2C7D36;
-  Caret 				: #FFFFFF;
 }
 
 /* color for 3D viewer*/
@@ -79,7 +54,8 @@ main {
   ButtonActive  		: #399FA0;
 
   FrameBg        		: #494949; /* parameter input background*/
-  FrameBgHovered 		: #399FA0;
+  FrameBgHovered 		: #7A7A7A;
+  FrameBgActive			: #399FA0;
   
   CheckMark 			: #45C2C3;
   
@@ -155,7 +131,9 @@ menuBar {
   Border				: #399FA0;
   
   FrameBg 				: #494949;
-  FrameBgHovered 		: #399FA0;
+  FrameBgHovered 		: #7A7A7A;
+  FrameBgActive			: #399FA0;
+  
   CheckMark 			: #45C2C3;
 }
 
