@@ -159,6 +159,13 @@ menuBar {
   FrameBgHovered : #FFDDC0;
 }
 
+settingIcons {
+  Button        	: #FFDDC0;
+  ButtonHovered 	: #FFD2AD;
+  ButtonActive  	: #FFFFFF;
+  WindowBg 			: #FFC89A;
+}
+
 ///////////////////////////////////////
 
 rightPanel {

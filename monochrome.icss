@@ -142,3 +142,9 @@ menuBar {
   FrameBgHovered : LightGray;
 }
 
+settingIcons {
+  Button        		: DarkGreen;
+  ButtonHovered 		: Green;
+  ButtonActive  		: Black;
+  WindowBg 				: Black;
+}
