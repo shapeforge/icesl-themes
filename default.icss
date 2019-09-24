@@ -21,8 +21,8 @@ editor {
 }
 
 brushes {
-  0 					: #005D5D;
-  1 					: #939598;
+  0 					: #939598;
+  1 					: #005D5D;
   2 					: #B17E70;
 }
 
@@ -72,6 +72,7 @@ main {
 }
 
 tooltip {
+  WindowBg 				: #CCCCCCEE;
   PopupBg				: #CCCCCCEE;
   Text					: #2A2A2C;
 }
@@ -142,6 +143,10 @@ settingIcons {
   ButtonHovered 		: #66CDCD;
   ButtonActive  		: #DDDDDD;
   WindowBg 				: #212121;
+}
+
+settingSetByScript {
+  Text					: #FFFFFF;
 }
 
 ///////////////////////////////////////
