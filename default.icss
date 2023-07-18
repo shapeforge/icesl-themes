@@ -1,7 +1,7 @@
 /* forge editor background*/
 editor {
-  Background 			: #313131; 
-  TextSelectedBg		: #696969; 
+  Background 			: #313131;
+  TextSelectedBg		: #696969;
   Caret					: #FFFFFF;
   Identifier 			: #FFFFFF;
   Comment    			: #98FB98;
@@ -11,9 +11,9 @@ editor {
 
 /* color for 3D viewer*/
 3dView{
-  Background 			: #464648;
-  BedBorder  			: #1C1C1C;
-  Grid       			: #A9B0BA;
+  Background 			: #464648FF;
+  BedBorder  			: #1C1C1CFF;
+  Grid       			: #A9B0BAFF;
 }
 
 3dViewError {
@@ -31,16 +31,16 @@ main {
   TextSelectedBg 		: #BBBBBB;
 
 /* Color for parameter window */
-  
+
   WindowBg 				: #212121;
-  PopupBg  				: #494949; 
+  PopupBg  				: #494949;
 
 /*tweaks title color bar*/
- 
-  TitleBg          		: #45C2C3;    
+
+  TitleBg          		: #45C2C3;
   TitleBgActive    		: #45C2C3;
   TitleBgCollapsed 		: #45C2C3;
-  
+
 /* Color Header for parameters */
 
 /* Color bar for title*/
@@ -48,7 +48,7 @@ main {
   Header        		: #399FA0;
   HeaderHovered 		: #66CDCD;
   HeaderActive  		: #399FA0;
-  
+
   Button        		: #399FA0;
   ButtonHovered 		: #66CDCD;
   ButtonActive  		: #399FA0;
@@ -56,18 +56,18 @@ main {
   FrameBg        		: #494949; /* parameter input background*/
   FrameBgHovered 		: #7A7A7A;
   FrameBgActive			: #399FA0;
-  
+
   CheckMark 			: #45C2C3;
-  
+
   ScrollbarBg			: #6A6A6A;
   ScrollbarGrab			: #45C2C3;
   ScrollbarGrabHovered	: #95DCDC;
   ScrollbarGrabActive	: #399FA0;
-  
+
   SliderGrab			: #B0E9E9;
   SliderGrabHovered		: #66CDCD;
   SliderGrabActive		: #7BCCCC;
-  
+
   PlotHistogram			: #B0E9E9;
 }
 
@@ -124,17 +124,17 @@ menuBar {
   TextDisabled			: #CCCCCC;
   PopupBg				: #212121;
   MenuBarBg				: #399FA0;
-  
+
   Header        		: #66CDCD;
   HeaderHovered 		: #66CDCD;
   HeaderActive  		: #66CDCD;
-  
+
   Border				: #399FA0;
-  
+
   FrameBg 				: #494949;
   FrameBgHovered 		: #7A7A7A;
   FrameBgActive			: #399FA0;
-  
+
   CheckMark 			: #45C2C3;
 }
 

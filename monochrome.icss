@@ -9,43 +9,43 @@ Red = #FF0041;
 editor {
   Background : Black;
   TextSelectedBg : LightGray;
-  
+
   LineNumber : Green;
   LineNumberBg : Black;
-  
+
   SelectedPrimitiveBg : LightGray;
   AncestorBg          : LightGray;
   DescendantsBg       : LightGray;
   ErrorBg             : Red;
-  
+
   Identifier : Green;
   Comment    : Green;
   CommentLine: Green;
   Number     : Green;
-  
-  Lua : Green; 
-  Emit: Green; 
-  Shape: Green; 
-  Operation: Green; 
-  Matrix: Green; 
-  Const: Green; 
-  Misc: Green; 
-  Tweak: Green; 
-  
+
+  Lua : Green;
+  Emit: Green;
+  Shape: Green;
+  Operation: Green;
+  Matrix: Green;
+  Const: Green;
+  Misc: Green;
+  Tweak: Green;
+
   String        : Green;
   LiteralString : Green;
   Character     : Green;
   StringEOL     : Green;
   Operator      : Green;
-  Preprocessor  : Green; 
+  Preprocessor  : Green;
   Caret : Green;
 }
 
 
 3dView{
-  Background : #000000;
-  BedBorder  : DarkGreen;
-  Grid       : Green;
+  Background : #000000FF;
+  BedBorder  : #013220FF;
+  Grid       : #008000FF;
 }
 
 3dViewError {
@@ -64,33 +64,33 @@ main {
 
   WindowBg : Black;
   PopupBg  : Black;
-  
+
   TitleBg          : DarkGray;
   TitleBgActive    : DarkGray;
   TitleBgCollapsed : DarkGray;
-  
+
   Header        : DarkGray;
   HeaderHovered : DarkGray;
   HeaderActive  : DarkGray;
-  
+
   Button        : DarkGray;
   ButtonHovered : DarkGray;
   ButtonActive  : Black;
 
   FrameBg        : DarkGray;
   FrameBgHovered : Black;
-  
+
   CheckMark : Green;
-  
+
   ScrollbarBg          : Black;
   ScrollbarGrab        : DarkGreen;
   ScrollbarGrabHovered : Green;
   ScrollbarGrabActive  : Green;
-  
+
   SliderGrab        : Green;
   SliderGrabHovered : Green;
   SliderGrabActive  : Green;
-  
+
   PlotHistogram : Green;
 }
 
@@ -127,17 +127,17 @@ settingKey {
 menuBar {
   Text         : Green;
   TextDisabled : #000000;
-  
+
   PopupBg : Black;
-  
+
   MenuBarBg : DarkGray;
-  
+
   Header        : LightGray;
   HeaderHovered : LightGray;
   HeaderActive  : LightGray;
-  
+
   Border : DarkGray;
-  
+
   FrameBg : DarkGray;
   FrameBgHovered : LightGray;
 }

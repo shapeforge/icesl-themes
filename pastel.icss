@@ -15,29 +15,29 @@ default = #FFF7E6;
 editor {
   Background : #FFF7E6;
   TextSelectedBg : #CAF3F3;
-  
+
   LineNumber : #000000;
   LineNumberBg : #FFE7D3;
-  
+
   SelectedPrimitiveBg : #FFDD9A;
   AncestorBg          : #FFDD9A;
   DescendantsBg       : #FFDD9A;
   ErrorBg             : #FFD3D3;
-  
+
   Identifier : #202020;
   Comment    : #BE976A;
   CommentLine: #BE976A;
   Number     : #405AFF;
-  
-  Lua : #975BFA; 
-  Emit: #FD0006; 
-  Shape: #C90775; 
-  Operation: #32AF0B; 
-  Matrix: #0E2E85; 
-  Const: #FF00FF; 
-  Misc: #00CFCF; 
-  Tweak: #FC4CA2; 
-  
+
+  Lua : #975BFA;
+  Emit: #FD0006;
+  Shape: #C90775;
+  Operation: #32AF0B;
+  Matrix: #0E2E85;
+  Const: #FF00FF;
+  Misc: #00CFCF;
+  Tweak: #FC4CA2;
+
   String        : #76B700;
   LiteralString : #76B700;
   Character     : #76B700;
@@ -49,9 +49,9 @@ editor {
 
 
 3dView{
-  Background : #FAFAFA;
-  BedBorder  : #000000;
-  Grid       : #D6D6D6;
+  Background : #FAFAFAFF;
+  BedBorder  : #000000FF;
+  Grid       : #D6D6D6FF;
 }
 
 3dViewError {
@@ -70,33 +70,33 @@ main {
 
   WindowBg : #FFF7E6;
   PopupBg  : #FFE7D3;
-  
+
   TitleBg          : #95DCDC;
   TitleBgActive    : #7BCCCC;
   TitleBgCollapsed : #95DCDC;
-  
+
   Header        : #B0E9E9;
   HeaderHovered : #95DCDC;
   HeaderActive  : #7BCCCC;
-  
+
   Button        : #FFDDC0;
   ButtonHovered : #FFD2AD;
   ButtonActive  : #FFC89A;
 
   FrameBg        : #FFF0D3;
   FrameBgHovered : #FFEAC0;
-  
+
   CheckMark : #7BCCCC;
-  
+
   ScrollbarBg          : #FFF0D3;
   ScrollbarGrab        : #B0E9E9;
   ScrollbarGrabHovered : #95DCDC;
   ScrollbarGrabActive  : #7BCCCC;
-  
+
   SliderGrab        : #B0E9E9;
   SliderGrabHovered : #95DCDC;
   SliderGrabActive  : #7BCCCC;
-  
+
   PlotHistogram : #B0E9E9;
 }
 
@@ -144,17 +144,17 @@ settingKey {
 menuBar {
   Text         : #000000;
   TextDisabled : #000000;
-  
+
   PopupBg : #FFF7E6;
-  
+
   MenuBarBg : #B0E9E9;
-  
+
   Header        : #CAF3F3;
   HeaderHovered : #95DCDC;
   HeaderActive  : #95DCDC;
-  
+
   Border : #B0E9E9;
-  
+
   FrameBg : #FFEAC0;
   FrameBgHovered : #FFDDC0;
 }
@@ -185,4 +185,3 @@ checkButton {
 
 runningService {
 }
-

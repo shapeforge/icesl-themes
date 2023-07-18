@@ -1,10 +1,10 @@
 editor {
   Background : #313131;
-  
+
   TextSelectedBg: #696969;
-  
+
   Caret: #FFFFFF;
-  
+
   Identifier : #FFFFFF;
   Comment    : #98FB98;
   CommentLine: #98FB98;
@@ -12,9 +12,9 @@ editor {
 }
 
 3dView{
-  Background : #313131;
-  BedBorder  : #000000;
-  Grid       : #D6D6D6;
+  Background : #313131FF;
+  BedBorder  : #000000FF;
+  Grid       : #D6D6D6FF;
 }
 
 3dViewError {
@@ -23,7 +23,7 @@ editor {
 
 main {
   MenuBarBg : rgba(0.25, 0.35, 0.65, 1.0);
-  
+
   FrameBg 		: #313131;
   Button        : rgba(0.25, 0.35, 0.65, 1);
   ButtonHovered : rgba(0.1, 0.1, 0.4, 1);
@@ -33,7 +33,7 @@ main {
 rightPanel{
   WindowBg       : rgba(0, 0, 0, 0.9);
   Border         : #4D4D4D;
-  
+
   Header         : rgba(0.25, 0.35, 0.65, 1);
 }
 
